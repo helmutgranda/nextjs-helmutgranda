@@ -5,7 +5,7 @@ import { getSortedPostsData } from "../lib/posts";
 import Link from "next/link";
 import Date from "../components/date";
 import TemplateHeader from "../components/TemplateHeader"
-import { useEffect } from 'react'
+import { useEffect, useLayoutEffect } from 'react'
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
@@ -17,6 +17,7 @@ export async function getStaticProps() {
 }
 
 export default function Home({ allPostsData }) {
+  
   
   useEffect(() => {
     var header = document.querySelector('#masthead');
@@ -46,21 +47,23 @@ export default function Home({ allPostsData }) {
           <div className="post-feed">
 
 
-          {allPostsData.map(({ id, date, title, post_image }) => (
-          <article className="post" key={id}>
+          {allPostsData.map(({ id, date, title, image, excerpt}) => (
+          <article className="post" key={id}> 
               <header className="post-header">
                 <h2 className="post-title"><Link href={`/posts/${id}`}><a>{title}</a></Link></h2>
                 <div className="post-meta">
                   Published on{` `}
-                  <Date className="published" dateString={date} />
+                  <Date className="published" dateString={date} title={title} />
                 </div>
               </header>
               <Link className="post-thumbnail" href={`/posts/${id}`}>
-              <a><img className="thumbnail" src={`images/${post_image}`} alt="" /></a>
+              <a><img className={`thumbnail ${image}`} src={`/images/${image}`} alt="" /></a>
               </Link>
+              
+
                 
               <div className="post-content">
-                <p>Hiking is sometimes referred to as such. This specifically refers to difficult walking through dense forest, undergrowth, or bushes, where forward progress requires pushing vegetation aside.</p>
+                <p>{excerpt}</p>
               </div>
               <p className="read-more">
               <Link className="read-more-link" href={`/posts/${id}`}>

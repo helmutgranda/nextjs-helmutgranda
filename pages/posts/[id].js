@@ -29,7 +29,7 @@ export default function Post({ postData }) {
       <Head>
         <title>{postData.title}</title>
       </Head>
-      <TemplateHeader bg_image={`/images/${postData.post_image}`}></TemplateHeader>
+      <TemplateHeader bg_image={`/images/${postData.image}`}></TemplateHeader>
 
       <div id="content" className="site-content">
     <main id="main" className="site-main inner">
@@ -38,7 +38,7 @@ export default function Post({ postData }) {
       <header className="post-header">
         <h1 className="post-title">{postData.title}</h1>
         <div className="post-meta">
-            Published on <Date dateString={postData.date} />
+            Published on <Date dateString={postData.date} title={postData.title} />
           </div>
         </header>
         <div className="post-content" dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
