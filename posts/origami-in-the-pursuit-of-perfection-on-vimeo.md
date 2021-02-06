@@ -4,7 +4,7 @@ image: img/writing.jpg
 author: [Helmut]
 tags:
   - Migration
-excerpt: Work In Progress Migration
+exc: Work In Progress Migration
 title: "Origami In the Pursuit of Perfection on Vimeo"
 date: "2012-01-03"
 categories: 

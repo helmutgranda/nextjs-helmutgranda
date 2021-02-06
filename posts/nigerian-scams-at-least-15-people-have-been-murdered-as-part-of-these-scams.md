@@ -4,7 +4,7 @@ image: img/writing.jpg
 author: [Helmut]
 tags:
   - Migration
-excerpt: Work In Progress Migration
+exc: Work In Progress Migration
 title: "Nigerian Scams, at least 15 people have been murdered as part of these scams"
 date: "2003-02-21"
 ---

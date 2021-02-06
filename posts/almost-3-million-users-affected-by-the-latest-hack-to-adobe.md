@@ -4,7 +4,7 @@ image: img/writing.jpg
 author: [Helmut]
 tags:
   - Migration
-excerpt: Work In Progress Migration
+exc: Work In Progress Migration
 title: "Almost 3 Million users affected by the latest hack to Adobe."
 date: "2013-10-04"
 categories: 

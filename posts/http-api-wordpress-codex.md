@@ -4,7 +4,7 @@ image: img/writing.jpg
 author: [Helmut]
 tags:
   - Migration
-excerpt: Work In Progress Migration
+exc: Work In Progress Migration
 title: "HTTP API « WordPress Codex"
 date: "2011-11-03"
 categories: 

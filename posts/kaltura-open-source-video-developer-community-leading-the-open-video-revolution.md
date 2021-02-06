@@ -4,7 +4,7 @@ image: img/writing.jpg
 author: [Helmut]
 tags:
   - Migration
-excerpt: Work In Progress Migration
+exc: Work In Progress Migration
 title: "Kaltura: Open Source Video Developer Community | Leading the Open Video Revolution"
 date: "2011-11-21"
 categories: 

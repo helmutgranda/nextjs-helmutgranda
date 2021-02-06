@@ -4,7 +4,7 @@ image: img/writing.jpg
 author: [Helmut]
 tags:
   - Migration
-excerpt: Work In Progress Migration
+exc: Work In Progress Migration
 title: "Create Dynamic and Textured 3D Text with Perspective in Photoshop and Illustrator"
 date: "2011-11-21"
 categories: 

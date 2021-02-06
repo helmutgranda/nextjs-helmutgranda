@@ -4,7 +4,7 @@ image: img/writing.jpg
 author: [Helmut]
 tags:
   - Migration
-excerpt: Work In Progress Migration
+exc: Work In Progress Migration
 title: "Combo Box Fails to Load in Parent Movie"
 date: "2006-02-28"
 categories: 

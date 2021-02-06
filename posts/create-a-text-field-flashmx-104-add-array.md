@@ -4,7 +4,7 @@ image: img/writing.jpg
 author: [Helmut]
 tags:
   - Migration
-excerpt: Work In Progress Migration
+exc: Work In Progress Migration
 title: "Create a Text Field FlashMX 104 (Add Array)"
 date: "2004-01-17"
 ---

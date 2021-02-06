@@ -4,7 +4,7 @@ image: img/writing.jpg
 author: [Helmut]
 tags:
   - Migration
-excerpt: Work In Progress Migration
+exc: Work In Progress Migration
 title: "Adobe Removing restrictions on use of the SWF and FLV/F4V format via the Open Screen Project."
 date: "2008-05-01"
 categories: 

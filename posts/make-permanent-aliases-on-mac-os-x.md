@@ -4,7 +4,7 @@ image: img/writing.jpg
 author: [Helmut]
 tags:
   - Migration
-excerpt: Work In Progress Migration
+exc: Work In Progress Migration
 title: "Make Permanent Aliases on MAC OS X"
 date: "2010-03-09"
 categories: 

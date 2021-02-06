@@ -4,7 +4,7 @@ image: img/writing.jpg
 author: [Helmut]
 tags:
   - Migration
-excerpt: Work In Progress Migration
+exc: Work In Progress Migration
 title: "Multiple MovieClips only One Script Advanced (Flash MX)"
 date: "2003-07-28"
 categories: 

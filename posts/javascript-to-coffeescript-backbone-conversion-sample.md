@@ -4,7 +4,7 @@ image: img/writing.jpg
 author: [Helmut]
 tags:
   - Migration
-excerpt: Work In Progress Migration
+exc: Work In Progress Migration
 title: "JavaScript to CoffeeScript Backbone conversion sample"
 date: "2012-10-25"
 categories: 

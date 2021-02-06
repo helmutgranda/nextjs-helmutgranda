@@ -4,7 +4,7 @@ image: img/writing.jpg
 author: [Helmut]
 tags:
   - Migration
-excerpt: Work In Progress Migration
+exc: Work In Progress Migration
 title: "ZendFramework FollowSymLinks or SymLinksIfOwnerMatch error in XAMPP"
 date: "2010-07-13"
 categories: 

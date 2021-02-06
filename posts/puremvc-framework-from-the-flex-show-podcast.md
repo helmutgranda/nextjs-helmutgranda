@@ -4,7 +4,7 @@ image: img/writing.jpg
 author: [Helmut]
 tags:
   - Migration
-excerpt: Work In Progress Migration
+exc: Work In Progress Migration
 title: "PureMVC Framework from The Flex Show podcast"
 date: "2009-09-30"
 categories: 

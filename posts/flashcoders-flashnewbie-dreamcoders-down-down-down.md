@@ -4,7 +4,7 @@ image: img/writing.jpg
 author: [Helmut]
 tags:
   - Migration
-excerpt: Work In Progress Migration
+exc: Work In Progress Migration
 title: "FlashCoders / FLashnewbie / Dreamcoders Down Down Down"
 date: "2005-10-12"
 categories: 

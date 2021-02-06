@@ -4,7 +4,7 @@ image: img/writing.jpg
 author: [Helmut]
 tags:
   - Migration
-excerpt: Work In Progress Migration
+exc: Work In Progress Migration
 title: "Documenting your classes with ASDoc in a MAC"
 date: "2008-02-14"
 categories: 

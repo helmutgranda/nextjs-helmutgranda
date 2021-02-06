@@ -4,7 +4,7 @@ image: img/writing.jpg
 author: [Helmut]
 tags:
   - Migration
-excerpt: Work In Progress Migration
+exc: Work In Progress Migration
 title: "Fastes way to detect if a radio button has been selected"
 date: "2005-05-17"
 categories: 

@@ -4,7 +4,7 @@ image: img/writing.jpg
 author: [Helmut]
 tags:
   - Migration
-excerpt: Work In Progress Migration
+exc: Work In Progress Migration
 title: "Apple allowing third party tools to develop iOS Apps"
 date: "2010-09-09"
 categories: 

@@ -1,8 +1,7 @@
 ---
 layout: post
-image: img/transform.jpg
 author: [Helmut]
-excerpt: How to transform black into any given color using only CSS filters
+exc: How to transform black into any given color using only CSS filters
 title: "Transform black into any given color with CSS filters"
 date: "2019-07-11"
 categories: 
@@ -10,6 +9,8 @@ categories:
 tags:
   - "javascript"
   - "programming"
+image: 'transform-black.jpg'
+image_credit: florianklauer
 ---
 
 [How to transform black into any given color using only CSS filters](https://stackoverflow.com/questions/42966641/how-to-transform-black-into-any-given-color-using-only-css-filters):

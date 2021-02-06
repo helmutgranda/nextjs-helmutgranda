@@ -4,7 +4,7 @@ image: img/writing.jpg
 author: [Helmut]
 tags:
   - Migration
-excerpt: Work In Progress Migration
+exc: Work In Progress Migration
 title: "RobotLegs and Flash IDE CS4 Injection"
 date: "2009-12-02"
 categories: 

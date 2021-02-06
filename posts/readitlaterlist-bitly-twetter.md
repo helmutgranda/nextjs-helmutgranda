@@ -4,7 +4,7 @@ image: img/writing.jpg
 author: [Helmut]
 tags:
   - Migration
-excerpt: Work In Progress Migration
+exc: Work In Progress Migration
 title: "ReaditLaterList + Bit.ly + Tweeter"
 date: "2011-01-09"
 categories: 

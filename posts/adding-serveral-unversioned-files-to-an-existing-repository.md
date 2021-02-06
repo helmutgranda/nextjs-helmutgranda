@@ -4,7 +4,7 @@ image: img/writing.jpg
 author: [Helmut]
 tags:
   - Migration
-excerpt: Work In Progress Migration
+exc: Work In Progress Migration
 title: "Adding serveral unversioned files to an existing repository"
 date: "2010-12-07"
 categories: 

@@ -4,7 +4,7 @@ image: img/writing.jpg
 author: [Helmut]
 tags:
   - Migration
-excerpt: Work In Progress Migration
+exc: Work In Progress Migration
 title: "A New Way to Migrate WordPress Content Into Drupal"
 date: "2011-11-14"
 categories: 

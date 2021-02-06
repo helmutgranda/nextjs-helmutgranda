@@ -4,7 +4,7 @@ image: img/writing.jpg
 author: [Helmut]
 tags:
   - Migration
-excerpt: Work In Progress Migration
+exc: Work In Progress Migration
 title: "CMYK (for Those Who Do RGB)"
 date: "2005-02-16"
 categories: 

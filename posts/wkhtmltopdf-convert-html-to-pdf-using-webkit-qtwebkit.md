@@ -4,7 +4,7 @@ image: img/writing.jpg
 author: [Helmut]
 tags:
   - Migration
-excerpt: Work In Progress Migration
+exc: Work In Progress Migration
 title: "wkhtmltopdf - Convert html to pdf using webkit (qtwebkit)"
 date: "2011-11-21"
 categories: 

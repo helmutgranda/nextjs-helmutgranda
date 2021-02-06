@@ -4,7 +4,7 @@ image: img/writing.jpg
 author: [Helmut]
 tags:
   - Migration
-excerpt: Work In Progress Migration
+exc: Work In Progress Migration
 title: "Removiing a Movie Clip on Stage with AS"
 date: "2005-05-14"
 categories: 

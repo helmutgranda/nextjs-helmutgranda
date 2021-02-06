@@ -4,7 +4,7 @@ image: img/writing.jpg
 author: [Helmut]
 tags:
   - Migration
-excerpt: Work In Progress Migration
+exc: Work In Progress Migration
 title: "Mike Chambers asks: Are you still using ActionScript 2? (or 1)?"
 date: "2008-10-26"
 categories: 

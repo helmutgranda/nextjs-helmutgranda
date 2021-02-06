@@ -4,7 +4,7 @@ image: img/writing.jpg
 author: [Helmut]
 tags:
   - Migration
-excerpt: Work In Progress Migration
+exc: Work In Progress Migration
 title: "If you think you know all about CS2, think again.. CS3 Coming out"
 date: "2005-08-30"
 categories: 

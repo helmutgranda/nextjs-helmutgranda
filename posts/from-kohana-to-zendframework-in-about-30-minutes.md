@@ -2,7 +2,7 @@
 layout: post
 image: img/writing.jpg
 author: [Helmut]
-excerpt: Work In Progress Migration
+exc: Work In Progress Migration
 title: "From Kohana to ZendFramework in about 30 minutes"
 date: "2009-12-07"
 categories: 

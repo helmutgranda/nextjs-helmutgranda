@@ -4,7 +4,7 @@ image: img/writing.jpg
 author: [Helmut]
 tags:
   - Migration
-excerpt: Work In Progress Migration
+exc: Work In Progress Migration
 title: "Create Text Fields FlashMX 105 (with Borders)"
 date: "2004-01-18"
 categories: 

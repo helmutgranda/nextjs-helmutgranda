@@ -4,7 +4,7 @@ image: img/writing.jpg
 author: [Helmut]
 tags:
   - Migration
-excerpt: Work In Progress Migration
+exc: Work In Progress Migration
 title: "Some things I didn't know about TextMate and ActionScript 3"
 date: "2009-09-25"
 categories: 

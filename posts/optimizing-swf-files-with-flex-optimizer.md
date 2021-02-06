@@ -4,7 +4,7 @@ image: img/writing.jpg
 author: [Helmut]
 tags:
   - Migration
-excerpt: Work In Progress Migration
+exc: Work In Progress Migration
 title: "Optimizing SWF files with Flex Optimizer"
 date: "2009-12-01"
 categories: 

@@ -4,7 +4,7 @@ image: img/writing.jpg
 author: [Helmut]
 tags:
   - Migration
-excerpt: Work In Progress Migration
+exc: Work In Progress Migration
 title: "Installing vim with ruby support (+ruby) - Stack Overflow"
 date: "2012-01-03"
 categories: 

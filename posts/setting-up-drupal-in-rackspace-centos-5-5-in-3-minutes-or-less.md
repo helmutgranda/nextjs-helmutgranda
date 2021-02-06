@@ -4,7 +4,7 @@ image: img/writing.jpg
 author: [Helmut]
 tags:
   - Migration
-excerpt: Work In Progress Migration
+exc: Work In Progress Migration
 title: "Setting up Drupal in Rackspace Centos 5.5 in 3 minutes or less"
 date: "2011-05-27"
 categories: 

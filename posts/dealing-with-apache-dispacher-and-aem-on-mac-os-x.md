@@ -4,7 +4,7 @@ image: img/writing.jpg
 author: [Helmut]
 tags:
   - Migration
-excerpt: Work In Progress Migration
+exc: Work In Progress Migration
 title: "Dealing with Apache, Dispacher, and AEM on Mac OS X"
 date: "2015-01-15"
 categories: 

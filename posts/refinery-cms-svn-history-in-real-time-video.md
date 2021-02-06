@@ -4,7 +4,7 @@ image: img/writing.jpg
 author: [Helmut]
 tags:
   - Migration
-excerpt: Work In Progress Migration
+exc: Work In Progress Migration
 title: "Refinery CMS SVN history in real time (video)"
 date: "2011-11-28"
 categories: 

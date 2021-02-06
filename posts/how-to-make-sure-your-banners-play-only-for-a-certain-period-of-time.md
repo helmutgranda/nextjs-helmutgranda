@@ -4,7 +4,7 @@ image: img/writing.jpg
 author: [Helmut]
 tags:
   - Migration
-excerpt: Work In Progress Migration
+exc: Work In Progress Migration
 title: "How to make sure your banners play only for a certain period of time"
 date: "2008-11-07"
 categories: 

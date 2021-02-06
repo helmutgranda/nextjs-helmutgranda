@@ -4,7 +4,7 @@ image: img/writing.jpg
 author: [Helmut]
 tags:
   - Migration
-excerpt: Work In Progress Migration
+exc: Work In Progress Migration
 title: "How my iPhone made me miss my first flight of the year"
 date: "2011-01-01"
 categories: 

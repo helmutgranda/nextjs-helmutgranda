@@ -2,7 +2,7 @@
 layout: post
 image: img/writing.jpg
 author: [Helmut]
-excerpt: Work In Progress Migration
+exc: Work In Progress Migration
 title: "How long does it takes you to get ready for something?"
 date: "2008-11-11"
 categories: 

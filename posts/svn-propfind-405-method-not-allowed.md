@@ -2,7 +2,7 @@
 layout: post
 image: img/writing.jpg
 author: [Helmut]
-excerpt: Work In Progress Migration
+exc: Work In Progress Migration
 title: "SVN PROPFIND 405 Method Not Allowed"
 date: "2009-10-04"
 categories: 

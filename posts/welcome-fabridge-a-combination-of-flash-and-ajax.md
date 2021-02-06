@@ -4,7 +4,7 @@ image: img/writing.jpg
 author: [Helmut]
 tags:
   - Migration
-excerpt: Work In Progress Migration
+exc: Work In Progress Migration
 title: "Welcome FABridge - A combination of Flash and AJAX"
 date: "2006-04-18"
 categories: 

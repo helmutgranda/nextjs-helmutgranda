@@ -4,7 +4,7 @@ image: img/writing.jpg
 author: [Helmut]
 tags:
   - Migration
-excerpt: Work In Progress Migration
+exc: Work In Progress Migration
 title: "TechZing: The Technology podcast that should be named TechTMI"
 date: "2010-10-30"
 categories: 

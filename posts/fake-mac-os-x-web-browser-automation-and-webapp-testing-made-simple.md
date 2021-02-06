@@ -4,7 +4,7 @@ image: img/writing.jpg
 author: [Helmut]
 tags:
   - Migration
-excerpt: Work In Progress Migration
+exc: Work In Progress Migration
 title: "Fake - Mac OS X Web Browser Automation and Webapp Testing Made Simple."
 date: "2011-05-03"
 categories: 

@@ -4,7 +4,7 @@ image: img/writing.jpg
 author: [Helmut]
 tags:
   - Migration
-excerpt: Work In Progress Migration
+exc: Work In Progress Migration
 title: "Create Text Field FlashMX 106 (lets have fun!)"
 date: "2004-01-19"
 categories: 

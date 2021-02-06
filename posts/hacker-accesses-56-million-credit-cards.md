@@ -4,7 +4,7 @@ image: img/writing.jpg
 author: [Helmut]
 tags:
   - Migration
-excerpt: Work In Progress Migration
+exc: Work In Progress Migration
 title: "Hacker accesses 5.6 million credit cards"
 date: "2003-02-19"
 categories: 

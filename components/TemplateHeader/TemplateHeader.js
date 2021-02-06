@@ -12,9 +12,9 @@ function TemplateHeader({bg_image}) {
           <div className="site-header-inside">
             <div className="site-header-vertical">
               <div className="site-branding">
-                <p className="site-logo">
+                {/* <p className="site-logo">
                   <a href="/demos/fjord/"><img src="images/logo.svg" alt="Helmut Granda" /></a>
-                </p>
+                </p> */}
                 <h1 className="site-title"><Link href="/"><a>Helmut Granda</a></Link></h1>
                 <p className="site-description">Learning through interaction</p>
               </div>

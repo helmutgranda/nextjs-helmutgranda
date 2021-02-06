@@ -4,7 +4,7 @@ image: img/writing.jpg
 author: [Helmut]
 tags:
   - Migration
-excerpt: Work In Progress Migration
+exc: Work In Progress Migration
 title: "Getting Rusty - Worst Nightmare!"
 date: "2006-02-27"
 categories: 

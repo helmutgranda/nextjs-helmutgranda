@@ -4,7 +4,7 @@ image: img/writing.jpg
 author: [Helmut]
 tags:
   - Migration
-excerpt: Work In Progress Migration
+exc: Work In Progress Migration
 title: "Video/Audio Encoding Cheat Sheet for FFmpeg"
 date: "2011-11-29"
 categories: 

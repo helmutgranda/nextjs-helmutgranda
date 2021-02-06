@@ -4,7 +4,7 @@ image: img/writing.jpg
 author: [Helmut]
 tags:
   - Migration
-excerpt: Work In Progress Migration
+exc: Work In Progress Migration
 title: "Never Understimate the power of MovieClips used as Graphics"
 date: "2006-09-22"
 categories: 

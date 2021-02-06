@@ -2,7 +2,7 @@
 layout: post
 image: img/writing.jpg
 author: [Helmut]
-excerpt: Work In Progress Migration
+exc: Work In Progress Migration
 title: "Retweeting private Tweets"
 date: "2009-11-24"
 categories: 

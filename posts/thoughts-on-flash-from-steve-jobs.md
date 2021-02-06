@@ -4,7 +4,7 @@ image: img/writing.jpg
 author: [Helmut]
 tags:
   - Migration
-excerpt: Work In Progress Migration
+exc: Work In Progress Migration
 title: "Thoughts on Flash from Steve Jobs"
 date: "2011-11-09"
 categories: 

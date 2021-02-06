@@ -2,7 +2,7 @@
 layout: post
 image: img/writing.jpg
 author: [Helmut]
-excerpt: Work In Progress Migration
+exc: Work In Progress Migration
 title: "YourPay some common errors and solutions"
 date: "2009-11-23"
 categories: 

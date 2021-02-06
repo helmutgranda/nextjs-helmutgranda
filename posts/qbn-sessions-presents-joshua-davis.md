@@ -4,7 +4,7 @@ image: img/writing.jpg
 author: [Helmut]
 tags:
   - Migration
-excerpt: Work In Progress Migration
+exc: Work In Progress Migration
 title: "QBN Sessions Presents Joshua Davis"
 date: "2007-09-27"
 categories: 

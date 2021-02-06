@@ -4,7 +4,7 @@ image: img/writing.jpg
 author: [Helmut]
 tags:
   - Migration
-excerpt: Work In Progress Migration
+exc: Work In Progress Migration
 title: "The Art of Innovation from the Hacker's Perspective"
 date: "2010-04-28"
 categories: 

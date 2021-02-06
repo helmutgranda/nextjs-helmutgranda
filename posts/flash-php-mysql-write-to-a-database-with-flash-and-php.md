@@ -4,7 +4,7 @@ image: img/writing.jpg
 author: [Helmut]
 tags:
   - Migration
-excerpt: Work In Progress Migration
+exc: Work In Progress Migration
 title: "Flash PHP mySQL - Write to a Database with Flash and PHP"
 date: "2007-08-15"
 categories: 

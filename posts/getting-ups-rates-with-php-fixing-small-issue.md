@@ -2,7 +2,7 @@
 layout: post
 image: img/writing.jpg
 author: [Helmut]
-excerpt: Work In Progress Migration
+exc: Work In Progress Migration
 title: "Getting UPS Rates with PHP fixing small issue"
 date: "2009-11-22"
 categories: 

@@ -4,7 +4,7 @@ image: img/writing.jpg
 author: [Helmut]
 tags:
   - Migration
-excerpt: Work In Progress Migration
+exc: Work In Progress Migration
 title: "TextMate: Tabbing through functions with macros"
 date: "2008-11-07"
 categories: 

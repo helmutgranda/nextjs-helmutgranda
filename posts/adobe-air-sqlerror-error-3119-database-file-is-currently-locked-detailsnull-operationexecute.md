@@ -4,7 +4,7 @@ image: img/writing.jpg
 author: [Helmut]
 tags:
   - Migration
-excerpt: Work In Progress Migration
+exc: Work In Progress Migration
 title: "Adobe Air SQLError: 'Error #3119: Database file is currently locked.', details:'null', operation:'execute'"
 date: "2008-05-07"
 categories: 

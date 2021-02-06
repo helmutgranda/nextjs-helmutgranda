@@ -4,7 +4,7 @@ image: img/writing.jpg
 author: [Helmut]
 tags:
   - Migration
-excerpt: Work In Progress Migration
+exc: Work In Progress Migration
 title: "Download PrismalScript 3.1 for AS2 ( ActionScript 2)"
 date: "2004-01-11"
 categories: 

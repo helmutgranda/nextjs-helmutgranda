@@ -4,7 +4,7 @@ image: img/writing.jpg
 author: [Helmut]
 tags:
   - Migration
-excerpt: Work In Progress Migration
+exc: Work In Progress Migration
 title: "Pattie Maes and Pranav Mistry demo SixthSense"
 date: "2010-07-19"
 categories: 

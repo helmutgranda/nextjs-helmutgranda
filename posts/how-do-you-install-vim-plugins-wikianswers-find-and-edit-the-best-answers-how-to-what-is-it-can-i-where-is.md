@@ -4,7 +4,7 @@ image: img/writing.jpg
 author: [Helmut]
 tags:
   - Migration
-excerpt: Work In Progress Migration
+exc: Work In Progress Migration
 title: "How do you install Vim plugins? - Wikianswers - Find and edit the best answers. How to? What? Is it? Can I? Where is?"
 date: "2011-05-07"
 categories: 

@@ -4,7 +4,7 @@ image: img/writing.jpg
 author: [Helmut]
 tags:
   - Migration
-excerpt: Work In Progress Migration
+exc: Work In Progress Migration
 title: "Linux: Check httpd.conf file before restarting server"
 date: "2012-01-11"
 categories: 

@@ -4,7 +4,7 @@ image: img/writing.jpg
 author: [Helmut]
 tags:
   - Migration
-excerpt: Work In Progress Migration
+exc: Work In Progress Migration
 title: "Buggy Buttons converted to MovieClips in the Library"
 date: "2006-11-10"
 categories: 

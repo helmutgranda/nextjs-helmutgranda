@@ -4,7 +4,7 @@ image: img/writing.jpg
 author: [Helmut]
 tags:
   - Migration
-excerpt: Work In Progress Migration
+exc: Work In Progress Migration
 title: "Django Debug Toolbar 0.8 on Vimeo"
 date: "2011-05-02"
 categories: 

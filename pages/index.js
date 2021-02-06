@@ -47,7 +47,7 @@ export default function Home({ allPostsData }) {
           <div className="post-feed">
 
 
-          {allPostsData.map(({ id, date, title, image, excerpt}) => (
+          {allPostsData.map(({ id, date, title, image, content, exe}) => (
           <article className="post" key={id}> 
               <header className="post-header">
                 <h2 className="post-title"><Link href={`/posts/${id}`}><a>{title}</a></Link></h2>
@@ -57,13 +57,13 @@ export default function Home({ allPostsData }) {
                 </div>
               </header>
               <Link className="post-thumbnail" href={`/posts/${id}`}>
-              <a><img className={`thumbnail ${image}`} src={`/images/${image}`} alt="" /></a>
+              <a class="post-thumbnail"><img className="thumbnail" src={`/images/${image}`} alt="" /></a>
               </Link>
               
 
                 
               <div className="post-content">
-                <p>{excerpt}</p>
+                <p>{exe}</p>
               </div>
               <p className="read-more">
               <Link className="read-more-link" href={`/posts/${id}`}>

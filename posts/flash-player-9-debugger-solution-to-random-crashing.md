@@ -4,7 +4,7 @@ image: img/writing.jpg
 author: [Helmut]
 tags:
   - Migration
-excerpt: Work In Progress Migration
+exc: Work In Progress Migration
 title: "Flash Player 9 Debugger \"solution to random crashing\""
 date: "2008-09-12"
 categories: 

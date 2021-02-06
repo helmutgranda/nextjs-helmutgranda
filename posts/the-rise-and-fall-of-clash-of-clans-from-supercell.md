@@ -4,7 +4,7 @@ image: img/writing.jpg
 author: [Helmut]
 tags:
   - Migration
-excerpt: Work In Progress Migration
+exc: Work In Progress Migration
 title: "The Rise and Fall of Clash of Clans from SuperCell"
 date: "2012-10-17"
 categories: 

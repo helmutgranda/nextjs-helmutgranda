@@ -4,7 +4,7 @@ image: img/writing.jpg
 author: [Helmut]
 tags:
   - Migration
-excerpt: Work In Progress Migration
+exc: Work In Progress Migration
 title: "How to create the google plus one button effect using jquery?"
 date: "2011-11-18"
 categories: 

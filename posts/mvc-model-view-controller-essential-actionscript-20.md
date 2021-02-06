@@ -4,7 +4,7 @@ image: img/writing.jpg
 author: [Helmut]
 tags:
   - Migration
-excerpt: Work In Progress Migration
+exc: Work In Progress Migration
 title: "MVC (Model-View-Controller) - Essential ActionScript 2.0"
 date: "2007-06-01"
 categories: 

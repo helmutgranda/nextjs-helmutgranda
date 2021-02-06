@@ -1,14 +1,15 @@
 ---
 layout: post
-image: img/camera-filter.jpg
 author: [Helmut]
 tags:
   - Migration
-excerpt: Ever wanted to recreate Instagram filters on the fly using CSS3 (without needing to open a graphics program)? Now you can!
+exc: Ever wanted to recreate Instagram filters on the fly using CSS3 (without needing to open a graphics program)? Now you can!
 title: "Instagram filters with CSS3 Effects"
 date: "2019-07-09"
 categories: 
   - "intagram"
+image: 'instagram-filters.jpg'
+image_credit: florianklauer
 ---
 
 [Instagram filters recreated using CSS3 filter effects](#)

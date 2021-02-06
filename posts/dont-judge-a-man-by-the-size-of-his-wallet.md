@@ -4,7 +4,7 @@ image: img/writing.jpg
 author: [Helmut]
 tags:
   - Migration
-excerpt: Work In Progress Migration
+exc: Work In Progress Migration
 title: "Don't Judge a Man by the Size of His Wallet"
 date: "2003-05-31"
 categories: 

@@ -4,7 +4,7 @@ image: img/writing.jpg
 author: [Helmut]
 tags:
   - Migration
-excerpt: Work In Progress Migration
+exc: Work In Progress Migration
 title: "PHP Optimization – Using A Timer To Benchmark Code And Increase Speed"
 date: "2011-11-04"
 categories: 

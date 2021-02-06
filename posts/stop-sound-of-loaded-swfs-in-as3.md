@@ -4,7 +4,7 @@ image: img/writing.jpg
 author: [Helmut]
 tags:
   - Migration
-excerpt: Work In Progress Migration
+exc: Work In Progress Migration
 title: "Stop sound of loaded SWFs in AS3"
 date: "2008-02-11"
 categories: 

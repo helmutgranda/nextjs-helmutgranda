@@ -4,7 +4,7 @@ image: img/writing.jpg
 author: [Helmut]
 tags:
   - Migration
-excerpt: Work In Progress Migration
+exc: Work In Progress Migration
 title: "The TRUTH about PHP/mySQL security Part I"
 date: "2006-02-23"
 categories: 

@@ -1,12 +1,13 @@
 ---
 layout: post
-image: img/spread-operator.jpg
 author: [Helmut]
 tags:
   - Migration
-excerpt: 5 Uses for the Spread Operator
+exc: 5 Uses for the Spread Operator
 title: "Five users for the Spread Operator in JavaScript"
 date: "2019-07-11"
+image: 'five-uses.jpg'
+image_credit: florianklauer
 ---
 
 [5 Uses for the Spread Operator](https://dev.to/laurieontech/5-uses-for-the-spread-operator-b9i "5 users for the spread operator")

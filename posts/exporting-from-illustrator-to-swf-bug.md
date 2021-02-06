@@ -4,7 +4,7 @@ image: img/writing.jpg
 author: [Helmut]
 tags:
   - Migration
-excerpt: Work In Progress Migration
+exc: Work In Progress Migration
 title: "Exporting from Illustrator to SWF \"bug\""
 date: "2006-11-03"
 categories: 

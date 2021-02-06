@@ -4,7 +4,7 @@ image: img/writing.jpg
 author: [Helmut]
 tags:
   - Migration
-excerpt: Work In Progress Migration
+exc: Work In Progress Migration
 title: "Silverlight error AG_E_RUNTIME_METHOD 2207"
 date: "2008-05-20"
 categories: 

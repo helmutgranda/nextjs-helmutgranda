@@ -4,7 +4,7 @@ image: img/writing.jpg
 author: [Helmut]
 tags:
   - Migration
-excerpt: Work In Progress Migration
+exc: Work In Progress Migration
 title: "Compile to Flash 8 when using EventDispatcher"
 date: "2007-09-20"
 categories: 
