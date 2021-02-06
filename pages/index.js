@@ -1,9 +1,11 @@
 import Head from "next/head";
 import Layout, { siteTitle } from "../components/layout";
-import utilStyles from "../styles/utils.module.css";
+import utilStyles from "../styles/utils.module.scss";
 import { getSortedPostsData } from "../lib/posts";
 import Link from "next/link";
 import Date from "../components/date";
+import TemplateHeader from "../components/TemplateHeader"
+import { useEffect } from 'react'
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
@@ -15,40 +17,82 @@ export async function getStaticProps() {
 }
 
 export default function Home({ allPostsData }) {
+  
+  useEffect(() => {
+    var header = document.querySelector('#masthead');
+    if (header) {
+      headerBg = document.querySelector('#header-bg');
+      if (headerBg) {
+        imagesLoaded(headerBg, { background: true }, function () {
+          header.classList.add('bg--loaded');
+        });
+      } else {
+        header.classList.add('bg--loaded');
+      }
+    }
+  }, []);
+
   return (
     <Layout home>
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <div id="page" class="site">
+
+      <div id="page" className="site">
+      <TemplateHeader bg_image="/images/header-bg.jpg"></TemplateHeader>
+
+      <div id="content" className="site-content">
+        <main id="main" className="site-main inner">
+          <div className="post-feed">
+
+
+          {allPostsData.map(({ id, date, title, post_image }) => (
+          <article className="post" key={id}>
+              <header className="post-header">
+                <h2 className="post-title"><Link href={`/posts/${id}`}><a>{title}</a></Link></h2>
+                <div className="post-meta">
+                  Published on{` `}
+                  <Date className="published" dateString={date} />
+                </div>
+              </header>
+              <Link className="post-thumbnail" href={`/posts/${id}`}>
+              <a><img className="thumbnail" src={`images/${post_image}`} alt="" /></a>
+              </Link>
+                
+              <div className="post-content">
+                <p>Hiking is sometimes referred to as such. This specifically refers to difficult walking through dense forest, undergrowth, or bushes, where forward progress requires pushing vegetation aside.</p>
+              </div>
+              <p className="read-more">
+              <Link className="read-more-link" href={`/posts/${id}`}>
+                <a>
+                  Keep reading
+                  <span className="icon-arrow-right" aria-hidden="true"></span>
+                </a>
+                </Link>
+              </p>
+            </article>
+            ))}
+
+          </div>
+        </main>
+        <footer id="colophon" className="site-footer inner">
+          <div className="site-footer-inside">
+            <span className="copyright">
+              &copy; Stackbit. All rights reserved. This Jamstack site was created with
+              <a href="https://www.stackbit.com/?utm_source=deployed-footer" target="_blank" rel="noopener">Stackbit</a>
+              . Create yours
+              <a href="https://app.stackbit.com/create?theme=fjord&utm_source=deployed-footer" target="_blank" rel="noopener">now</a>
+            </span>
+          </div>
+          <a id="to-top" className="to-top" href="#page">
+            To top
+            <span className="icon-arrow-up" aria-hidden="true"></span>
+          </a>
+        </footer>
+      </div>
         
       
-      <section className={utilStyles.headingMd}>
-        <p>
-          Hello, I'm Helmut. I am a software enginer and a translator
-          (English/Spanish). You can contact me on Twitter.
-        </p>
-        <p>
-          (This is a sample website - you’ll be building a site like this on{" "}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
-        </p>
-      </section>
-      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Blog</h2>
-        <ul className={utilStyles.list}>
-          {allPostsData.map(({ id, date, title }) => (
-            <li className={utilStyles.listItem} key={id}>
-              <Link href={`/posts/${id}`}>
-                <a>{title}</a>
-              </Link>
-              <br />
-              <small className={utilStyles.lightText}>
-                <Date dateString={date} />
-              </small>
-            </li>
-          ))}
-        </ul>
-      </section>
+
       </div>
     </Layout>
   );
