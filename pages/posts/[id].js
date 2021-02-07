@@ -5,24 +5,16 @@ import Date from '../../components/date'
 import utilStyles from '../../styles/utils.module.scss'
 import TemplateHeader from '../../components/TemplateHeader'
 import Footer from '../../components/Footer'
-import { useEffect } from 'react'
+import { useEffect, useLayoutEffect } from 'react'
 import Link from 'next/link'
 
 export default function Post({ postData }) {
 
-  useEffect(() => {
-    console.log("on page load trigger");
-    var header = document.querySelector('#masthead');
-    if (header) {
-      headerBg = document.querySelector('#header-bg');
-      if (headerBg) {
-        imagesLoaded(headerBg, { background: true }, function () {
-          header.classList.add('bg--loaded');
-        });
-      } else {
+  useLayoutEffect(() => {
+    setTimeout(function() {
+      var header = document.querySelector('#masthead');
         header.classList.add('bg--loaded');
-      }
-    }
+    }, 500)
   }, []);
   
   return (

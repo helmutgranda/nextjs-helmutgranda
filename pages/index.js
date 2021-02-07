@@ -19,17 +19,10 @@ export async function getStaticProps() {
 export default function Home({ allPostsData }) {
   
   useLayoutEffect(() => {
-    var header = document.querySelector('#masthead');
-    if (header) {
-      headerBg = document.querySelector('#header-bg');
-      if (headerBg) {
-        imagesLoaded(headerBg, { background: true }, function () {
-          header.classList.add('bg--loaded');
-        });
-      } else {
+    setTimeout(function() {
+      var header = document.querySelector('#masthead');
         header.classList.add('bg--loaded');
-      }
-    }
+    }, 500)
   })
 
   return (
