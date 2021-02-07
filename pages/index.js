@@ -18,8 +18,7 @@ export async function getStaticProps() {
 
 export default function Home({ allPostsData }) {
   
-  
-  useEffect(() => {
+  useLayoutEffect(() => {
     var header = document.querySelector('#masthead');
     if (header) {
       headerBg = document.querySelector('#header-bg');
@@ -31,7 +30,7 @@ export default function Home({ allPostsData }) {
         header.classList.add('bg--loaded');
       }
     }
-  }, []);
+  })
 
   return (
     <Layout home>
@@ -57,7 +56,7 @@ export default function Home({ allPostsData }) {
                 </div>
               </header>
               <Link className="post-thumbnail" href={`/posts/${id}`}>
-              <a class="post-thumbnail"><img className="thumbnail" src={`/images/${image}`} alt="" /></a>
+              <a className="post-thumbnail"><img className="thumbnail" src={`/images/${image}`} alt="" /></a>
               </Link>
               
 

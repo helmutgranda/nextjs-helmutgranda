@@ -31,13 +31,14 @@ var header = document.querySelector('#masthead');
 if (header) {
   headerBg = document.querySelector('#header-bg');
   if (headerBg) {
-    imagesLoaded(headerBg, { background: true }, function () {
+    window.imgLoad = imagesLoaded(headerBg, { background: true }, function () {
       header.classList.add('bg--loaded');
     });
   } else {
     header.classList.add('bg--loaded');
   }
 }
+
 
 // // Back to top
 // document.querySelector('#to-top').addEventListener('click', function (e) {

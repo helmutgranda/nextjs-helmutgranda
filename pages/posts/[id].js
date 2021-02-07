@@ -11,6 +11,7 @@ import Link from 'next/link'
 export default function Post({ postData }) {
 
   useEffect(() => {
+    console.log("on page load trigger");
     var header = document.querySelector('#masthead');
     if (header) {
       headerBg = document.querySelector('#header-bg');
