@@ -4,7 +4,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 
 const name = 'Your Name'
-export const siteTitle = 'Next.js Sample Website'
+export const siteTitle = 'Helmut Granda: Learning through interaction'
 
 export default function Layout({ children, home }) {
   return (
