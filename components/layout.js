@@ -10,10 +10,12 @@ export default function Layout({ children, home }) {
   return (
     <div >
       <Head>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="shortcut icon" type="image/png" href="/images/icon/icon-192x192.png" />
+        <link rel="shortcut icon" sizes="192x192" href="/images/icon/icon-192x192.png" />
+        <link rel="apple-touch-icon" href="/images/icon/icon-192x192.png"></link>
         <meta
           name="description"
-          content="Learn how to build a personal website using Next.js"
+          content="This is the personal site of Helmut Granda: learning through interaction."
         />
         <meta
           property="og:image"
